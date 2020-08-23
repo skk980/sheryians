@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+#first {
+    display: flex;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(15, 155, 190);
+}
+
+#one {
+    position: fixed;
+    width: 57.5%;
+    height: 55%;
+    background-color: rgb(15, 155, 190);
+    position: absolute;
+    top: 20%;
+    left: -7%;
+    border-radius: 50%;
+}
+
+#two {
+    position: fixed;
+    width: 67%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 44%;
+    right: -9%;
+    border-radius: 50%;
+}
+
+#three {
+    position: fixed;
+    width: 57.5%;
+    height: 55%;
+    background-color: rgb(15, 155, 190);
+    position: absolute;
+    top: -40%;
+    left: -7%;
+    border-radius: 50%;
+}
+
+#four {
+    position: fixed;
+    width: 67%;
+    height: 70%;
+    background-color: rgb(15, 155, 190);
+    position: absolute;
+    top: -16%;
+    right: -9%;
+    border-radius: 50%;
+}
+
+#whitebottom {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background: rgb(15, 155, 190);
+}
+
+#absolute {
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    z-index: 99;
+}
